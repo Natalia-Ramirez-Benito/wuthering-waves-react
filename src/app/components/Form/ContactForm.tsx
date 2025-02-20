@@ -91,7 +91,7 @@ export default function ContactForm() {
                 name="name"
                 type="text"
                 placeholder="Tu nombre"
-                className={`w-full text-lg text-black px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all ${
+                className={`w-full text-lg px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all ${
                   errors.name ? 'border-red-500 focus:ring-red-200' : 'border-muted focus:border-primary focus:ring-primary/20'
                 }`}
                 value={formData.name}
@@ -116,7 +116,7 @@ export default function ContactForm() {
                 name="email"
                 type="email"
                 placeholder="tucorreo@ejemplo.com"
-                className={`w-full text-lg text-black px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all ${
+                className={`w-full text-lg px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all ${
                   errors.email ? 'border-red-500 focus:ring-red-200' : 'border-muted focus:border-primary focus:ring-primary/20'
                 }`}
                 value={formData.email}
@@ -140,7 +140,7 @@ export default function ContactForm() {
               <textarea
                 name="message"
                 placeholder="Escribe tu mensaje aquí..."
-                className={`w-full text-lg text-black px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all resize-none ${
+                className={`w-full text-lg px-4 py-3 rounded-lg border focus:ring-2 focus:outline-none transition-all resize-none ${
                   errors.message ? 'border-red-500 focus:ring-red-200' : 'border-muted focus:border-primary focus:ring-primary/20'
                 }`}
                 rows={5}
