@@ -59,6 +59,7 @@ export default function ContactForm() {
       // Resetear formulario
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
       toast.error('Error al enviar el mensaje');
     }
